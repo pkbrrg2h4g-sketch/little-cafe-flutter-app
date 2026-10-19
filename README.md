@@ -1,6 +1,6 @@
 # Little Café
 
-Little Café, Flutter ile hazırlanan modern ve estetik bir mini katalog uygulamasıdır. Eğitim amaçlı tasarlanmış bu proje, ürün listesi, ürün detay ekranı, arama ve kategori filtreleme, sepet yönetimi ve sayfa geçişlerini örnekler.
+Little Café, Flutter ile hazırlanan modern ve estetik bir mini katalog uygulamasıdır. Eğitim amaçlı tasarlanan bu proje, temel Flutter kavramlarını örnekleyen bir katalog uygulamasıdır.
 
 ## Özellikler
 - Ana sayfa
@@ -9,27 +9,31 @@ Little Café, Flutter ile hazırlanan modern ve estetik bir mini katalog uygulam
 - Arama ve kategori filtreleme
 - Sepet ekranı
 - Ürün ekleme/çıkarma ve toplam hesaplama
-- Material Design ile modern düzen
+- Material Design tasarımı
+
+## Gereksinimler
+- Flutter SDK
+- Dart SDK
+- VS Code
+- Android Studio
+- Android Emulator veya fiziksel cihaz
 
 ## Kurulum
-
-1. Flutter SDK kurulu olmalıdır.
-2. Projeyi klonlayın:
+1. Projeyi klonlayın:
    ```bash
    git clone https://github.com/pkbrrg2h4g-sketch/little-cafe-flutter-app.git
    cd little-cafe-flutter-app
    ```
-3. Bağımlılıkları yükleyin:
+2. Bağımlılıkları indirin:
    ```bash
    flutter pub get
    ```
-4. Uygulamayı çalıştırın:
+3. Çalıştırın:
    ```bash
    flutter run
    ```
 
 ## Proje yapısı
-
 ```text
 lib/
 ├─ main.dart
@@ -47,4 +51,4 @@ lib/
 ```
 
 ## Not
-Bu proje, eğitim amaçlı örnek ürün verileri ve internet üzerinden resimler kullanmaktadır. Görseller açıksa uygulama sorunsuz çalışır.
+Bu proje, demo amaçlı örnek ürün verileri ve internet üzerinden yüklenecek görseller kullanmaktadır. Görsellerin erişilebilir olması gerekir.

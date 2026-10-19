@@ -1,5 +1,5 @@
 name: little_cafe
-description: Little Cafe Flutter mini catalog application.
+description: Little Cafe Flutter mini catalog app.
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,7 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.0
 
 dev_dependencies:
